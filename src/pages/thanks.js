@@ -11,7 +11,7 @@ export default function thanks() {
             <Purchase>
                 <h2>Succesful purchase</h2>
                 <p>Thanks mate</p>
-                <span rol='img' aria-label='emoji'>❤</span>
+                <span role='img' aria-label='emoji'>❤</span>
                 <Link to ='/'>
                     <Button>Back</Button>
                 </Link>
