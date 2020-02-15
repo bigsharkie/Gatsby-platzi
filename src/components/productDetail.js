@@ -4,7 +4,7 @@ import {Tag, SizeButton, QtyButton, QtySelect, SizeSelect, Button, StyledProduct
 import { SEO, Stars } from './'
 import { CartContext } from '../context'
 
-export default function productDetail({price, sku:id, product:{name, metadata}}) {
+export default function productDetail({price, id, product:{name, metadata}}) {
     const formattedPrice = priceFormat(price)
     const [size, setSize]=useState(2)
     const [qty, setQty]=useState(1)
