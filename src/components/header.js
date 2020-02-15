@@ -14,7 +14,7 @@ const Header = () => {
       <nav>
         <ul>
           <MenuItem margin>
-          <Link to='/products'>Products</Link>
+          <Link to='/'>Products</Link>
           </MenuItem>
           <MenuItem margin>
           <a href="https://www.google.com">Google</a>
