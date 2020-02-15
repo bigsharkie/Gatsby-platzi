@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react'
 import priceFormat from '../utils/priceFormat'
-import {Tag, SizeButton, QtyButton, QtySelect, SizeSelect, Button, StyledProductDetail} from '../styles/components'
+import {Tag, SizeButton, QtySelect, SizeSelect, Button, StyledProductDetail} from '../styles/components'
 import { SEO, Stars } from './'
 import { CartContext } from '../context'
 

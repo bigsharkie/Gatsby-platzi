@@ -63,7 +63,7 @@ export default function Cart() {
                     <Link to='/'>
                         <Button type='outline'>Go Back</Button>
                     </Link>
-                    <Button onClick={handleSubmit} disabled={cart.length==0}>Buy</Button>
+                    <Button onClick={handleSubmit} disabled={cart.length===0}>Buy</Button>
                 </div>
             </nav>
         </StyledCart>
