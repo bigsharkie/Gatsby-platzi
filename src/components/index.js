@@ -4,6 +4,6 @@ export { default as SEO } from "./seo"
 export { default as HeroImage } from "./heroimage"
 export { default as Jumbo } from './Jumbo'
 export { default as Products } from './Products'
-export { default as ProductDetail } from './productDetail'
+export { default as ProductDetail } from './ProductDetail'
 export { default as Stars } from './Stars'
 export { default as Cart } from './Cart'

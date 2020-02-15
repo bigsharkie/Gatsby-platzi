@@ -1,10 +1,10 @@
 import React, { useState, useContext } from 'react'
 import priceFormat from '../utils/priceFormat'
 import {Tag, SizeButton, QtySelect, SizeSelect, Button, StyledProductDetail} from '../styles/components'
-import { SEO, Stars } from './'
+import { SEO, Stars } from '.'
 import { CartContext } from '../context'
 
-export default function productDetail({price, id, product:{name, metadata}}) {
+export default function ProductDetail({price, id, product:{name, metadata}}) {
     const formattedPrice = priceFormat(price)
     const [size, setSize]=useState(2)
     const [qty, setQty]=useState(1)
