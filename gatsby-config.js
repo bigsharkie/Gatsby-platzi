@@ -43,7 +43,7 @@ module.exports = {
       resolve:`gatsby-source-stripe`,
       options : {
         objects:['Sku'],
-        secretKey: process.env.STRIPE_SK
+        secretKey: process.env.GATSBY_STRIPE_SK
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
